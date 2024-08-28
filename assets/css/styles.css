@@ -1,0 +1,86 @@
+*{
+  --colorLink:white;
+  --colorCard:hsl(0, 0%, 12%); /*Color de la tarjeta*/
+  --colorBody: hsl(0, 0%, 8%); /*Color de fondo*/
+  --colorBtn: hsl(0,0%,20%); /*Color de los botones*/
+  --colorPerfil: hsl(75, 94%, 57%); /*Color de la dirección*/
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /*Damos formato a <body>*/
+  box-sizing: border-box;
+  background-color: var(--colorBody); /*Por si queremos cambiar el fondo*/
+  font-family: "Inter", sans-serif;
+  color:white;
+  height: 100vh; /*Para que <body> ocupe todo el alto del navegador*/
+}
+
+h1{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+#perfil img{
+  border-radius: 50%;
+}
+
+#perfil address{
+  color:var(--colorPerfil);
+  font-style: normal;
+  font-weight: 600;
+}
+
+#perfil cite{
+  font-size: 11px;
+  font-style: normal;
+}
+
+#perfil p{
+  margin: 10px;
+}
+
+.card{
+  background-color: var(--colorCard);
+  padding: 1em;
+  margin: 1em;
+}
+
+.card--section{
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.card-flex, .card--section{
+  /*colocamos los elementos en el centro exacto del contenedor*/
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card__align{
+  text-align: center;
+}
+
+.menu{
+  /*Eliminamos los topos y el espaciado izdo que generan las listas <ul>*/
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu__btn{
+  background-color: var(--colorBtn);
+  margin:10px;
+  padding: 10px;
+  width: 225px;
+  border-radius: 5px;
+}
+
+.menu__link{
+  text-decoration: none;
+  color:var(--colorLink);
+  font-weight: 600;
+}
