@@ -4,6 +4,7 @@
   --colorBody: hsl(0, 0%, 8%); /*Color de fondo*/
   --colorBtn: hsl(0,0%,20%); /*Color de los botones*/
   --colorPerfil: hsl(75, 94%, 57%); /*Color de la dirección*/
+  --textFont:14px;
   margin: 0;
   padding: 0;
 }
@@ -18,7 +19,7 @@ body{
 }
 
 .name{
-  font-size: 20px;
+  font-size: calc(var(--textFont) + 10px);
   font-weight: 600;
   margin:5px;
 }
@@ -34,7 +35,7 @@ body{
 
 #perfil cite{
   display: inline-block;
-  font-size: 11px;
+  font-size: var(--textFont);
   font-style: normal;
   margin-top: 10px;
 }
@@ -60,7 +61,7 @@ body{
 
 .card--section{
   border-radius: 10px;
-  font-size: 12px;
+  font-size: var(--textFont);
 }
 
 
@@ -77,7 +78,7 @@ body{
 .menu__btn{
   background-color: var(--colorBtn);
   margin:10px;
-  width: 230px;
+  width: 270px;
   border-radius: 5px;
 }
 
