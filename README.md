@@ -38,13 +38,13 @@ Users should be able to:
 
   Flexbox is very useful when we want to centre an html element as horizontally, easy :-) , or vertically, not too easy :-( 
 
-  Flexbox distributes the elements with respect to two axes
+  Flexbox distributes the elements with respect to two axes.
 
-  ![[flex container] https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Flexbox/flex_terms.png]
+  ![flex-Container] (https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Flexbox/flex_terms.png)
 
   **BASIC HTML STRUCTURE**.
   
-  We use the <body> element as the main container and add a <section> element as a child container.
+  We use the `<body>` element as the main container and add a `<section>` element as a child container.
 
   ```html
   <body class="card-flex">
@@ -56,18 +56,18 @@ Users should be able to:
   
   **BASIC CSS STRUCTURE**.
 
-  And now we can touch the CSS! The class ‘card-flex’ in the <body> sets flexbox 
+  And now we can touch the CSS! The class ‘card-flex’ in the `<body>` sets flexbox.
 
   ```css
   .card-flex{
     display:flex;
-    align-items: center; /* Centra verticalmente (cross axis) */
-    justify-content: center; /* Centra horizontalmente (main axis)*/
+    align-items: center; /* (cross axis) */
+    justify-content: center; /* (main axis)*/
     flex-direction: column; 
   }
 
   .card__align{
-    text-align: center; /* Centra el texto del contenedor */
+    text-align: center; /* Centres the container text */
   }  
   ```
 
@@ -80,5 +80,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Fran](https://franciscomi.github.io/social-links-profile-main/)
+- Frontend Mentor - [@FranciscoMi](https://www.frontendmentor.io/profile/FranciscoMi)
