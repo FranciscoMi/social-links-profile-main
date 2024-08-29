@@ -17,9 +17,10 @@ body{
   height: 100vh; /*Para que <body> ocupe todo el alto del navegador*/
 }
 
-h1{
+.name{
   font-size: 20px;
-  margin: 5px;
+  font-weight: 600;
+  margin:5px;
 }
 
 #perfil img{
@@ -47,6 +48,14 @@ h1{
   padding: 1.5em;
   margin: 1em;
   font-weight: 400;
+} 
+
+.card-flex{
+  /*colocamos los elementos en el centro exacto del contenedor*/
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .card--section{
@@ -54,13 +63,6 @@ h1{
   font-size: 12px;
 }
 
-.card-flex, .card--section{
-  /*colocamos los elementos en el centro exacto del contenedor*/
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 
 .card__align{
   text-align: center;
